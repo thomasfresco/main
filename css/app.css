@@ -1,0 +1,283 @@
+img {
+  image-rendering: optimizeSpeed;
+  /*                     */
+  image-rendering: -moz-crisp-edges;
+  /* Firefox             */
+  image-rendering: -o-crisp-edges;
+  /* Opera               */
+  image-rendering: -webkit-optimize-contrast;
+  /* Chrome (and Safari) */
+  image-rendering: optimize-contrast;
+  /* CSS3 Proposed       */
+  -ms-interpolation-mode: nearest-neighbor;
+  /* IE8+                */ }
+
+p, a, h1, h2, h3, h4, h5, h6, li {
+  font-family: 'Roboto', sans-serif; }
+
+body, p {
+  color: #111111; }
+
+input {
+  font-family: 'Roboto', sans-serif !important; }
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #DDDDDD;
+  font-weight: 300;
+  margin: 0; }
+  h1 span {
+    font-weight: 900; }
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #111111;
+  font-weight: 300;
+  margin-bottom: 20px; }
+  h2 span {
+    font-weight: 900; }
+
+h3 {
+  text-align: center;
+  font-size: 26px; }
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 0.25rem;
+  font-weight: 400; }
+
+h5 {
+  text-align: center;
+  font-size: 16px;
+  line-height: 18px;
+  color: #DDDDDD;
+  font-weight: 300;
+  margin: 0; }
+
+.grey-back {
+  background-color: #eee; }
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: auto;
+  margin-left: 0;
+  margin-right: auto;
+  max-width: 280px;
+  width: 100%;
+  background-color: #001f3f;
+  padding: 30px 0; }
+  #sidebar .logo img {
+    border-radius: 100%;
+    border: 1px solid #DDDDDD;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px; }
+  #sidebar .menu {
+    margin-top: 50px; }
+    #sidebar .menu li {
+      display: block;
+      text-align: center; }
+      #sidebar .menu li:last-child a {
+        border: none; }
+      #sidebar .menu li a {
+        color: #DDDDDD;
+        display: block;
+        margin: 0 auto;
+        border-bottom: 1px solid rgba(221, 221, 221, 0.25);
+        max-width: 210px;
+        text-transform: uppercase;
+        padding: 16px 0; }
+  #sidebar .social {
+    text-align: center;
+    margin: 0;
+    margin-top: 25px; }
+    #sidebar .social li {
+      display: inline-block;
+      list-style: none;
+      padding: 0 5px; }
+      #sidebar .social li a {
+        color: #DDDDDD; }
+  #sidebar .language {
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+    color: #DDDDDD; }
+
+#content {
+  margin-left: 280px;
+  margin-right: 0; }
+  #content section {
+    padding: 60px 0; }
+  #content .cbp-l-grid-work.cbp-caption-zoom .cbp-caption-activeWrap {
+    background-color: transparent; }
+  #content .cbp-caption-zoom .cbp-caption:hover .cbp-caption-defaultWrap {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15); }
+  #content .content-wrapper {
+    padding: 30px;
+    padding-left: 0; }
+  #content .layout-box .layout-common {
+    background-color: #001f3f;
+    position: fixed; }
+  #content .layout-box .layout-top {
+    height: 30px;
+    top: 0;
+    bottom: auto;
+    width: 100%;
+    z-index: 15; }
+  #content .layout-box .layout-bottom {
+    height: 30px;
+    bottom: 0;
+    top: auto;
+    width: 100%;
+    z-index: 15; }
+  #content .layout-box .layout-right {
+    width: 30px;
+    right: 0;
+    top: 0;
+    left: auto;
+    height: 100%;
+    z-index: 15; }
+  #content .layout-box .layout-left {
+    width: 30px;
+    left: 0;
+    top: 0;
+    right: auto;
+    height: 100%;
+    z-index: 15;
+    display: none; }
+  #content #education {
+    text-align: center; }
+    #content #education ul {
+      padding: 0;
+      margin: 0; }
+    #content #education li {
+      list-style: none; }
+    #content #education i {
+      margin: 16px 0 12px 0; }
+    #content #education .columns {
+      margin-bottom: 10px; }
+      #content #education .columns:last-child {
+        margin-bottom: 0; }
+    #content #education .education p {
+      margin: 0;
+      line-height: 1.2; }
+      #content #education .education p span {
+        font-weight: 600; }
+    #content #education .details {
+      margin-bottom: 1rem; }
+      #content #education .details:last-child {
+        margin-bottom: 0; }
+  #content #experience h3 {
+    margin: 0; }
+  #content #experience .sub-header {
+    display: block;
+    text-align: center;
+    line-height: 1.1;
+    margin: 0;
+    margin-bottom: 1.4rem; }
+
+.cbp-l-project-desc-title span, .cbp-l-project-details-title span {
+  border-bottom: 0px; }
+
+#success, #error {
+  display: none; }
+
+#success span, #error span {
+  display: block;
+  width: 100%; }
+
+#success span p, #error span p {
+  margin-top: 4em;
+  text-align: center;
+  font-size: 18px; }
+
+#success span p {
+  color: #2ECC40; }
+
+#error span p {
+  color: #FF4136; }
+
+#submit {
+  width: 100%;
+  padding: 0.5rem;
+  height: 2.4375rem;
+  background-color: #001f3f;
+  color: white; }
+  #submit:hover {
+    background-color: #00274e; }
+
+#contact input, #contact textarea {
+  border: 1px solid #001f3f !important; }
+
+#contact textarea {
+  height: 6rem; }
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(0, 31, 63, 0.65) !important; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(0, 31, 63, 0.65) !important; }
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: rgba(0, 31, 63, 0.65) !important; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(0, 31, 63, 0.65) !important; }
+
+@media (max-width: 769px) {
+  #sidebar {
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding: 20px 0; }
+
+  #content {
+    margin-left: 0px;
+    margin-right: 0px; }
+    #content .content-wrapper {
+      padding: 0;
+      padding-left: 0; }
+
+  .layout-box {
+    display: none; }
+
+  #experience {
+    text-align: center; }
+    #experience .row:nth-child(0) {
+      padding-top: 80px; }
+
+  #sidebar .language {
+    position: static;
+    display: block;
+    padding-top: 15px;
+    margin-bottom: 0; }
+
+  #content #education i {
+    margin: 24px 0 12px 0; }
+
+  #content #experience .exp-2 h3 {
+    padding-top: 30px; }
+
+  #g-recaptcha > div {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px; } }
